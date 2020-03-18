@@ -1,5 +1,5 @@
 {% set name = "runthis-server" %}
-{% set version = "0.0.2" %}
+{% set version = "0.0.3" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/regro/runthis-server/releases/download/{{ version }}/runthis-server-{{ version }}.tar.gz
-  sha256: a9782d09b294676b4c82555441e18187aa3050eaf099b7a2b880516fd8f44de5
+  sha256: 2d1cfadaf09b2e5121ac7965613a21fe8f0e7484a1a7b5a3ecdb5b88c707cc3e
 
 build:
   noarch: python
